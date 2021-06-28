@@ -1,68 +1,73 @@
 *{
-    padding:0;
-
+    padding: 0;
+    margin: 0;
 }
 
 body{
-    background-color: beige;
+    background-color:#F0F2F5;
 }
+
 
 #container{
-    display:flex;
-    width:75px;
+    display: flex;
+    width:75%;
     margin: 100px auto;
-    gap : 50px;
+    gap: 50px;
 }
 
-#left{
+#esquerda{
     display: flex;
-    flex-direction: column;
-    width:50%;
-}
-
-#right{
-    display: flex;
-    flex-direction: column;
-    width:50%;
-    align-items: center;
+    flex-direction:column;
+    width: 50%;
 }
 
 p{
-    font-size: 24px;
+    font-size:24px;
 }
 
-.branca{
+#direita{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction:column;
+    width: 50%;
+}
+
+.parte-branca{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    width: 350px;
+    border-radius: 10px;
     padding: 20px;
-    background-color: coral;
+    background-color: white;
     gap: 10px;
 }
 
 form{
-    display:flex;
-    flex-direction: column;
+    display: flex;
+    flex-direction:column;
     gap: 10px;
 }
 
 input{
-    height: 20;
-    width: 250;
+    height: 40px;
+    width: 300px;
     border-radius: 5px;
+    border: 1px solid #ccd0d5;
 }
 
 form button{
-    height: 40px;
-    background-color : #166FE5;
+    height:40px;
+    background-color: #166FE5;
     border-radius: 5px;
-    border: 0;
+    border: none;
 }
 
-.create{
+.criar-conta{
     height: 40px;
-    width:200px;
-    background-color: green;
+    width: 200px;
+    background-color: #42b72a;
+    border-radius: 5px;
+    border: none;
 }
 
 button{
